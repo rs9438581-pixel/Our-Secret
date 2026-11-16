@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Secret - Daily Task Planner</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+    <h1>Our Secret</h1>
+
+<p>Plan your day, your way.</p>	
+
+<div class="date-box">
+    <h3 id="todayDate"></h3>
+</div>
+   
+    <input type="text" id="taskInput"
+        placeholder="Enter your task">
+
+    <button onclick="addTask()">Add Task</button>
+<div class="dashboard">
+
+    <div class="stat-box">
+        <h3 id="pendingCount">0</h3>
+        <p>Pending Tasks</p>
+    </div>
+
+    <div class="stat-box">
+        <h3 id="completedCount">0</h3>
+        <p>Completed Tasks</p>
+    </div>
+
+</div>
+    <h2>My Tasks</h2>
+<p id="taskCounter">Total Tasks: 0</p>
+
+    <ul id="taskList">
+</ul>
+
+        <li>Complete homework</li>
+        <li>Read a book</li>
+        <li>Revise Science</li>
+    </ul>
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
